@@ -1,0 +1,89 @@
+@use 'colors' as *;
+@use 'media' as *;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+h1,
+h2 {
+	font-size: 2.5rem;
+}
+
+body {
+
+	margin: 1.5rem;
+	font-family: 'Big Shoulders Display', cursive;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+.section-title {
+	font-family: 'Big Shoulders Display', cursive;
+	color: $heading-color;
+	text-transform: uppercase;
+}
+
+.card {
+	display: grid;
+	gap: 2rem;
+	padding: 3.8rem;
+	font-family: 'Lexend Deca', sans-serif;
+}
+.sedans {
+	background-color: $sedan-bgc;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+}
+.suvs {
+	background-color: $suv-bgc;
+}
+.luxury {
+	background-color: $luxury-bgc;
+	border-bottom-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+	overflow: hidden;
+}
+.section-text {
+	font-size: 1rem;
+	line-height: 1.75;
+	color: $text-color;
+}
+.button {
+	font-family: 'Lexend Deca', sans-serif;
+	padding: 0.75em 2em;
+	font-size: 1rem;
+	border-radius: 1.45rem;
+	cursor: pointer;
+	border: 2px solid $heading-color;
+	margin-right: auto;
+}
+
+.sedan-button {
+	color: $sedan-bgc;
+}
+.sedan-button:hover {
+	background: $sedan-bgc;
+	color: $heading-color;
+}
+.suv-button {
+	color: $suv-bgc;
+}
+.suv-button:hover {
+	background: $suv-bgc;
+	color: $heading-color;
+}
+.luxury-button {
+	color: $luxury-bgc;
+}
+.luxury-button:hover {
+	background: $luxury-bgc;
+	color: $heading-color;
+}

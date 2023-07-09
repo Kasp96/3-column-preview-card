@@ -1,0 +1,123 @@
+@media (min-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+  body .card {
+    min-width: 20.65rem;
+    max-width: 21.65rem;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .cards .sedans {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0;
+  }
+  .cards .luxury {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+  }
+  .button {
+    margin-top: 3rem;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-size: 2.5rem;
+}
+
+body {
+  margin: 1.5rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.section-title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+.card {
+  display: grid;
+  gap: 2rem;
+  padding: 3.8rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.section-text {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.button {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 0.75em 2em;
+  font-size: 1rem;
+  border-radius: 1.45rem;
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+  margin-right: auto;
+}
+
+.sedan-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedan-button:hover {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.suv-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.suv-button:hover {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.luxury-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury-button:hover {
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}/*# sourceMappingURL=main.css.map */
