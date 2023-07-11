@@ -1,17 +1,12 @@
-@media (min-width: 500px) {
-	body {
-		overflow: hidden;
-
-		.card {
-			min-width: 20.65rem;
-			max-width: 21.65rem;
-		}
+@media (min-width: 992px) {
+	.card {
+		max-width: 21rem;
 	}
+
 	.cards {
 		display: flex;
 		justify-content: center;
-		align-items: center;
-		height: 100vh;
+		grid-auto-flow: column;
 
 		.sedans {
 			border-top-left-radius: 0.5rem;
